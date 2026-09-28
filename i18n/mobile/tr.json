@@ -1,0 +1,49 @@
+{
+  "tabs": {
+    "chat": "Sohbet",
+    "changes": "Değişiklikler"
+  },
+  "comingSoon": {
+    "title": "Çok yakında",
+    "description": "Bu bölüm hazırlanıyor ve bir sonraki güncellemeyle gelecek."
+  },
+  "social": {
+    "continueWithGoogle": "Google ile devam et"
+  },
+  "forgot": {
+    "title": "Şifreni sıfırla",
+    "subtitle": "Hesabının e-posta adresini gir, yeni şifre belirlemen için sana bir bağlantı gönderelim.",
+    "submit": "Sıfırlama bağlantısı gönder",
+    "sent": "{{email}} adresine ait bir hesap varsa sıfırlama bağlantısı yolda. Gelen kutunu kontrol et.",
+    "backToSignIn": "Girişe dön"
+  },
+  "reset": {
+    "title": "Yeni şifre belirle",
+    "subtitle": "Hesabın için yeni bir şifre gir.",
+    "newPassword": "Yeni şifre",
+    "submit": "Şifreyi güncelle",
+    "success": "Şifren güncellendi. Artık giriş yapabilirsin.",
+    "invalidLink": "Bu sıfırlama bağlantısı geçersiz veya eksik. Yeni bir bağlantı iste."
+  },
+  "trial": {
+    "comparePlans": "Planları pagewatcher.app üzerinde karşılaştır"
+  },
+  "errors": {
+    "network": "PageWatcher'a ulaşılamıyor. Bağlantını kontrol edip tekrar dene.",
+    "sessionExpired": "Oturumunun süresi doldu. Lütfen tekrar giriş yap.",
+    "invalidEmail": "Geçerli bir e-posta adresi gir"
+  },
+  "settings": {
+    "account": "Hesap",
+    "plan": "Plan",
+    "managePlanOnWeb": "Planını pagewatcher.app üzerinden yönet",
+    "logoutConfirm": "Bu cihazda PageWatcher oturumunu kapatmak istiyor musun?",
+    "version": "Sürüm {{version}}",
+    "deviceLanguage": "Cihaz dili"
+  },
+  "plans": {
+    "free": "Ücretsiz",
+    "individual": "Bireysel",
+    "pro": "Pro"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "API_BASE_URL": "https://api.pagewatcher.app/api/v1",
+  "WEB_BASE_URL": "https://pagewatcher.app",
+  "GOOGLE_IOS_CLIENT_ID": ""
+}

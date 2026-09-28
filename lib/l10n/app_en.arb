@@ -1,0 +1,549 @@
+{
+  "@@locale": "en",
+  "appChangesAiInsight": "AI Insight",
+  "appChangesEmptyDescription": "Once a monitor catches a relevant change, it'll show up here.",
+  "appChangesEmptyTitle": "No changes yet",
+  "appChangesLoading": "Loading changes…",
+  "appChangesSubtitle": "Everything your assistant has caught recently, across all monitors.",
+  "appChangesTitle": "Latest Changes",
+  "appChangesViewMonitors": "View monitors",
+  "appChatComposerPlaceholder": "Ask the assistant to watch a page, list your monitors, or check for changes…",
+  "appChatDisclaimer": "PageWatcher can make mistakes. Check important results.",
+  "appChatEmptyDescription": "Tell me a URL and what you want to know about when it changes — I'll set up the monitor for you.",
+  "appChatEmptyTitle": "What page should I watch?",
+  "appChatSend": "Send",
+  "appChatStop": "Stop",
+  "appChatThinking": "Thinking…",
+  "appMonitorDetailBackToMonitors": "Back to Monitors",
+  "appMonitorDetailCheckFailed": "Check failed",
+  "appMonitorDetailCheckingWithTime": "Checking… (up to 30s)",
+  "appMonitorDetailCheckNow": "Check Now",
+  "appMonitorDetailChecksEvery": "Checks every {count} minutes",
+  "@appMonitorDetailChecksEvery": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appMonitorDetailDeleteConfirmShort": "Delete?",
+  "appMonitorDetailDeleteThisMonitor": "Delete this monitor",
+  "appMonitorDetailDiffVsPrevious": "Diff vs previous snapshot",
+  "appMonitorDetailEdit": "Edit",
+  "appMonitorDetailEditSettings": "Edit monitor settings",
+  "appMonitorDetailHtmlViewerRendered": "Rendered",
+  "appMonitorDetailHtmlViewerSource": "Source",
+  "appMonitorDetailHtmlViewerTitle": "HTML Viewer",
+  "appMonitorDetailLastChange": "Last change: {date}",
+  "@appMonitorDetailLastChange": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "appMonitorDetailLastChecked": "Last checked: {date}",
+  "@appMonitorDetailLastChecked": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "appMonitorDetailNewSnapshotCaptured": "New snapshot captured",
+  "appMonitorDetailNoChangeDetected": "No change detected",
+  "appMonitorDetailNotFoundDescription": "This monitor may have been deleted or you don't have access.",
+  "appMonitorDetailNotFoundTitle": "Monitor not found",
+  "appMonitorDetailPauseMonitoring": "Pause monitoring",
+  "appMonitorDetailResumeMonitoring": "Resume monitoring",
+  "appMonitorDetailRunCheckTitle": "Run a manual check now",
+  "appMonitorDetailSnapshotsAiBadge": "AI",
+  "appMonitorDetailSnapshotsAiFilteredDescription": "Change was detected but suppressed — it didn't match your AI prompt.",
+  "appMonitorDetailSnapshotsAiFilteredLabel": "AI filtered",
+  "appMonitorDetailSnapshotsChecking": "Checking…",
+  "appMonitorDetailSnapshotsColumnsFetch": "Fetch",
+  "appMonitorDetailSnapshotsColumnsHash": "Hash",
+  "appMonitorDetailSnapshotsColumnsHttp": "HTTP",
+  "appMonitorDetailSnapshotsColumnsSize": "Size",
+  "appMonitorDetailSnapshotsColumnsStatus": "Status",
+  "appMonitorDetailSnapshotsColumnsTimestamp": "Timestamp",
+  "appMonitorDetailSnapshotsContentPreview": "Content preview",
+  "appMonitorDetailSnapshotsDiff": "Diff",
+  "appMonitorDetailSnapshotsEmptyDescription": "The first snapshot will appear after the next check runs.",
+  "appMonitorDetailSnapshotsEmptyTitle": "No snapshots yet",
+  "appMonitorDetailSnapshotsError": "Error",
+  "appMonitorDetailSnapshotsFetchColon": "Fetch:",
+  "appMonitorDetailSnapshotsFilteredBadge": "Filtered",
+  "appMonitorDetailSnapshotsFilteredTitle": "Change detected but suppressed by AI — didn't match your prompt",
+  "appMonitorDetailSnapshotsHtml": "HTML",
+  "appMonitorDetailSnapshotsLoadFailed": "Failed to load snapshots.",
+  "appMonitorDetailSnapshotsRefresh": "Refresh",
+  "appMonitorDetailSnapshotsRefreshTitle": "Refresh snapshot list",
+  "appMonitorDetailSnapshotsRetry": "Retry",
+  "appMonitorDetailSnapshotsRunFirstCheck": "Run First Check",
+  "appMonitorDetailSnapshotsSimilarity": "Similarity: {percent}%",
+  "@appMonitorDetailSnapshotsSimilarity": {
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "appMonitorDetailSnapshotsSizeColon": "Size:",
+  "appMonitorDetailSnapshotsStatusBaseline": "Baseline",
+  "appMonitorDetailSnapshotsStatusChangeNum": "Change #{count}",
+  "@appMonitorDetailSnapshotsStatusChangeNum": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appMonitorDetailSnapshotsStatusFailed": "Failed",
+  "appMonitorDetailSnapshotsTitle": "Snapshots",
+  "appMonitorDetailSnapshotsTotal": "{count} total",
+  "@appMonitorDetailSnapshotsTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appMonitorDetailToastsCheckFailed": "Failed to trigger check",
+  "appMonitorDetailToastsDeleted": "Monitor deleted.",
+  "appMonitorDetailToastsPaused": "Monitor paused.",
+  "appMonitorDetailToastsResumed": "Monitor resumed.",
+  "appMonitorDetailToastsUpdateFailed": "Failed to update monitor",
+  "appMonitorDetailYes": "Yes",
+  "appMonitorModalAddSubtitle": "Track changes on any website",
+  "appMonitorModalAddTitle": "Add New Monitor",
+  "appMonitorModalAiExamples0": "Price or availability changes",
+  "appMonitorModalAiExamples1": "New content or announcements",
+  "appMonitorModalAiExamples2": "Policy or terms updates",
+  "appMonitorModalAiExamples3": "New job listings",
+  "appMonitorModalAiExamples4": "Personnel or team changes",
+  "appMonitorModalAiExamples5": "Product releases or updates",
+  "appMonitorModalAiFooterNote": "AI reads every detected change and writes a plain-English summary of what actually shifted. With your prompt, it also filters out irrelevant changes so your inbox stays clean.",
+  "appMonitorModalAiOptionalBadge": "Optional",
+  "appMonitorModalAiPromptPlaceholder": "e.g. \"Notify me only if the price drops below $99\" or \"Alert me when new clinical trials appear\"",
+  "appMonitorModalAiSensitivityBalancedDesc": "Smart filtering (default)",
+  "appMonitorModalAiSensitivityBalancedLabel": "Balanced",
+  "appMonitorModalAiSensitivityLabel": "AI Filter Sensitivity",
+  "appMonitorModalAiSensitivityLenientDesc": "Only major changes",
+  "appMonitorModalAiSensitivityLenientLabel": "Lenient",
+  "appMonitorModalAiSensitivityStrictDesc": "Flag every change",
+  "appMonitorModalAiSensitivityStrictLabel": "Strict",
+  "appMonitorModalAiSubtitle": "Tell AI exactly what changes matter - it filters noise and delivers insights, not just signals",
+  "appMonitorModalAiTestFailed": "Test failed — need at least 2 snapshots",
+  "appMonitorModalAiTesting": "Testing…",
+  "appMonitorModalAiTestPrompt": "Test prompt against latest change",
+  "appMonitorModalAiTitle": "AI Intelligence",
+  "appMonitorModalCancel": "Cancel",
+  "appMonitorModalChannelsDeleteChannel": "Delete channel",
+  "appMonitorModalChannelsDeleteChannelConfirm": "Delete channel \"{name}\"?",
+  "@appMonitorModalChannelsDeleteChannelConfirm": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appMonitorModalChannelsEmailDesc": "Sent to your account email",
+  "appMonitorModalChannelsEmailTitle": "Email",
+  "appMonitorModalChannelsLabel": "Notification Channels *",
+  "appMonitorModalChannelsQuickChannels": "Quick channels",
+  "appMonitorModalChannelsSavedSubtitle": "These are channels you've configured once and can reuse across monitors.",
+  "appMonitorModalChannelsSavedTitle": "Saved reusable channels",
+  "appMonitorModalChannelsSubtitle": "Choose where to receive alerts when a change is detected.",
+  "appMonitorModalChannelsTypeDescEmail": "Email channel",
+  "appMonitorModalChannelsTypeDescWebhook": "Custom webhook",
+  "appMonitorModalChannelsWebhookDesc": "POST request to any URL",
+  "appMonitorModalChannelsWebhookPlaceholder": "https://your-server.com/webhook",
+  "appMonitorModalChannelsWebhookTitle": "Webhook",
+  "appMonitorModalClassificationAnalyzeFailed": "Could not analyse this URL.",
+  "appMonitorModalClassificationAnalyzing": "Analysing website complexity…",
+  "appMonitorModalClassificationDifficultyLabel": "Scraping Difficulty",
+  "appMonitorModalClassificationTiersAuthenticatedDifficulty": "Hard",
+  "appMonitorModalClassificationTiersAuthenticatedHint": "Requires login to access content. Monitoring may be unreliable.",
+  "appMonitorModalClassificationTiersAuthenticatedLabel": "Authenticated",
+  "appMonitorModalClassificationTiersBotDefendedDifficulty": "Very Hard",
+  "appMonitorModalClassificationTiersBotDefendedHint": "Active anti-bot protection detected. May block automated checks.",
+  "appMonitorModalClassificationTiersBotDefendedLabel": "Bot Defended",
+  "appMonitorModalClassificationTiersDynamicInteractiveDifficulty": "Hard",
+  "appMonitorModalClassificationTiersDynamicInteractiveHint": "Requires user interaction to load content. Enable JS mode.",
+  "appMonitorModalClassificationTiersDynamicInteractiveLabel": "Dynamic Interactive",
+  "appMonitorModalClassificationTiersDynamicSpaDifficulty": "Moderate",
+  "appMonitorModalClassificationTiersDynamicSpaHint": "JavaScript-rendered (React/Vue/Angular). Enable JS mode above.",
+  "appMonitorModalClassificationTiersDynamicSpaLabel": "Dynamic SPA",
+  "appMonitorModalClassificationTiersEnterpriseWalledDifficulty": "Extreme",
+  "appMonitorModalClassificationTiersEnterpriseWalledHint": "Enterprise-grade security. Monitoring is likely to fail.",
+  "appMonitorModalClassificationTiersEnterpriseWalledLabel": "Enterprise Walled",
+  "appMonitorModalClassificationTiersStaticComplexDifficulty": "Low",
+  "appMonitorModalClassificationTiersStaticComplexHint": "Complex HTML structure but no JS needed. Standard scraping works well.",
+  "appMonitorModalClassificationTiersStaticComplexLabel": "Static Complex",
+  "appMonitorModalClassificationTiersStaticSimpleDifficulty": "Easy",
+  "appMonitorModalClassificationTiersStaticSimpleHint": "Plain HTML - simple HTTP fetch will work perfectly.",
+  "appMonitorModalClassificationTiersStaticSimpleLabel": "Static Simple",
+  "appMonitorModalClassificationTiersUnclassifiableDifficulty": "Unknown",
+  "appMonitorModalClassificationTiersUnclassifiableHint": "Could not determine scraping difficulty for this URL.",
+  "appMonitorModalClassificationTiersUnclassifiableLabel": "Unclassifiable",
+  "appMonitorModalCreateMonitor": "Create Monitor",
+  "appMonitorModalEditingLabel": "Editing: {name}",
+  "@appMonitorModalEditingLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appMonitorModalEditTitle": "Edit Monitor",
+  "appMonitorModalIntervalHint": "How often to check for changes",
+  "appMonitorModalIntervalLabel": "Check Interval *",
+  "appMonitorModalIntervalMinimumNote": "(minimum {count} min on your plan)",
+  "@appMonitorModalIntervalMinimumNote": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appMonitorModalIntervalOptions1440": "📅 Every day",
+  "appMonitorModalIntervalOptions15": "🔄 Every 15 minutes",
+  "appMonitorModalIntervalOptions180": "🕐 Every 3 hours",
+  "appMonitorModalIntervalOptions20": "⏱️ Every 20 minutes",
+  "appMonitorModalIntervalOptions30": "⏱️ Every 30 minutes",
+  "appMonitorModalIntervalOptions360": "🕕 Every 6 hours",
+  "appMonitorModalIntervalOptions5": "⚡ Every 5 minutes (Most frequent)",
+  "appMonitorModalIntervalOptions60": "⌛ Every hour (Recommended)",
+  "appMonitorModalIntervalOptions720": "🕛 Every 12 hours",
+  "appMonitorModalJsToggleDesc": "Enable for React, Vue, Angular, or SPAs",
+  "appMonitorModalJsToggleTitle": "Dynamic Website (JavaScript)",
+  "appMonitorModalNameHint": "A friendly name to identify this monitor",
+  "appMonitorModalNameLabel": "Monitor Name *",
+  "appMonitorModalNamePlaceholder": "e.g., Product Price Monitor",
+  "appMonitorModalNotifyOnEveryChangeDesc": "Get alerted each time the content changes",
+  "appMonitorModalNotifyOnEveryChangeTitle": "Notify on every change",
+  "appMonitorModalNotifyOnFirstChangeDesc": "Get alerted once when a change is first detected",
+  "appMonitorModalNotifyOnFirstChangeTitle": "Notify on first change only",
+  "appMonitorModalNotifyOnLabel": "Notification Preference *",
+  "appMonitorModalSaveChanges": "Save Changes",
+  "appMonitorModalUrlHintCreate": "The complete URL to monitor for changes",
+  "appMonitorModalUrlHintEdit": "URL cannot be changed after creation",
+  "appMonitorModalUrlLabel": "Website URL *",
+  "appMonitorModalUrlPlaceholder": "https://example.com",
+  "appSettingsAccountSettingsCurrentPassword": "Current Password",
+  "appSettingsAccountSettingsCurrentPasswordHint": "(required to change email)",
+  "appSettingsAccountSettingsDisplayName": "Display Name",
+  "appSettingsAccountSettingsEmail": "Email Address",
+  "appSettingsAccountSettingsNamePlaceholder": "Your name",
+  "appSettingsAccountSettingsSaveChanges": "Save Changes",
+  "appSettingsAccountSettingsTitle": "Account Settings",
+  "appSettingsDangerZoneConfirmWarning": "This will permanently delete your account and all your monitors.",
+  "appSettingsDangerZoneDeleteAccount": "Delete My Account",
+  "appSettingsDangerZoneDeleteAccountButton": "Delete Account",
+  "appSettingsDangerZoneDeleting": "Deleting…",
+  "appSettingsDangerZoneDescription": "Permanently delete your account and all associated data. This action cannot be undone.",
+  "appSettingsDangerZonePasswordPlaceholder": "Enter your password",
+  "appSettingsDangerZoneTitle": "Danger Zone",
+  "appSettingsDangerZoneTypeToConfirm": "Type {word} to confirm",
+  "@appSettingsDangerZoneTypeToConfirm": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "appSettingsDangerZoneYourPassword": "Your Password",
+  "appSettingsLanguageDescription": "Choose the language for the app interface.",
+  "appSettingsLanguageTitle": "Language",
+  "appSettingsMemberSince": "Member since {date}",
+  "@appSettingsMemberSince": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "appSettingsSecurityChangePassword": "Change Password",
+  "appSettingsSecurityChanging": "Changing…",
+  "appSettingsSecurityConfirmNewPassword": "Confirm New Password",
+  "appSettingsSecurityCurrentPassword": "Current Password",
+  "appSettingsSecurityNewPassword": "New Password",
+  "appSettingsSecurityTitle": "Security",
+  "appSettingsSubscriptionBillingComingSoon": "Billing management coming soon.",
+  "appSettingsSubscriptionChangePlan": "Change Plan",
+  "appSettingsSubscriptionCurrentPlan": "Current Plan",
+  "appSettingsSubscriptionFreeDuringTrial": "Free during trial",
+  "appSettingsSubscriptionFreeForever": "Free forever",
+  "appSettingsSubscriptionLimit": "Limit:",
+  "appSettingsSubscriptionManageBilling": "Manage Billing",
+  "appSettingsSubscriptionMonitorsInUse": "Monitors in use:",
+  "appSettingsSubscriptionNoActivePlan": "No active plan",
+  "appSettingsSubscriptionPerMonth": "${price}/month",
+  "@appSettingsSubscriptionPerMonth": {
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "appSettingsSubscriptionTitle": "Subscription",
+  "appSettingsSubscriptionTrialBadge": "Trial",
+  "appSettingsSubscriptionTrialDaysLeft": "{count, plural, one{Your free trial ends in {count} day.} other{Your free trial ends in {count} days.}}",
+  "@appSettingsSubscriptionTrialDaysLeft": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appSettingsSubscriptionTrialEndsToday": "Your free trial ends today.",
+  "appSettingsSubscriptionUnlimitedMonitors": "Unlimited monitors",
+  "appSettingsSubscriptionUpgradeNow": "Upgrade Now",
+  "appSettingsSubscriptionUpgradePlan": "Upgrade Plan",
+  "appSettingsSubscriptionUpToMonitors": "{count, plural, one{Up to {count} monitor} other{Up to {count} monitors}}",
+  "@appSettingsSubscriptionUpToMonitors": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appSettingsTitle": "Settings",
+  "appSettingsToastsAccountDeleted": "Account deleted. Goodbye!",
+  "appSettingsToastsAccountDeleteFailed": "Failed to delete account",
+  "appSettingsToastsEmailUpdated": "Email updated. Please log in again.",
+  "appSettingsToastsPasswordChanged": "Password changed successfully!",
+  "appSettingsToastsPasswordChangeFailed": "Failed to change password",
+  "appSettingsToastsPasswordsMismatch": "New passwords do not match",
+  "appSettingsToastsPasswordTooShort": "New password must be at least 8 characters",
+  "appSettingsToastsProfileUpdated": "Profile updated!",
+  "appSettingsToastsProfileUpdateFailed": "Failed to update profile",
+  "appSettingsToastsTypeDeleteRequired": "Please type {word} to confirm",
+  "@appSettingsToastsTypeDeleteRequired": {
+    "placeholders": {
+      "word": {
+        "type": "String"
+      }
+    }
+  },
+  "appSidebarConfirmDeleteConversation": "Delete this conversation?",
+  "appSidebarDeleteConversation": "Delete conversation",
+  "appSidebarGroupsOlder": "Older",
+  "appSidebarGroupsPrevious7Days": "Previous 7 days",
+  "appSidebarGroupsToday": "Today",
+  "appSidebarGroupsYesterday": "Yesterday",
+  "appSidebarNewConversation": "New conversation",
+  "appSidebarNoConversations": "No conversations yet. Ask the assistant to watch a page for you.",
+  "appTasksAddMonitorCta": "Ask the assistant to add a monitor →",
+  "appTasksChangedAgo": "Changed {time}",
+  "@appTasksChangedAgo": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "appTasksColumnsLastResult": "Last result",
+  "appTasksColumnsMonitor": "Monitor",
+  "appTasksColumnsNextRun": "Next run",
+  "appTasksColumnsSchedule": "Schedule",
+  "appTasksColumnsStatus": "Status",
+  "appTasksConfirmDelete": "Delete '{name}'? This can't be undone.",
+  "@appTasksConfirmDelete": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "appTasksDelete": "Delete",
+  "appTasksEmptyDescription": "Tell the assistant what page to watch and what to notify you about.",
+  "appTasksEmptyTitle": "No monitors yet",
+  "appTasksIntervalDaily": "Daily",
+  "appTasksIntervalEveryDays": "Every {count}d",
+  "@appTasksIntervalEveryDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appTasksIntervalEveryHours": "Every {count}h",
+  "@appTasksIntervalEveryHours": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appTasksIntervalEveryMinutes": "Every {count}m",
+  "@appTasksIntervalEveryMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "appTasksIntervalHourly": "Hourly",
+  "appTasksLoading": "Loading monitors…",
+  "appTasksNoChangesYet": "No changes yet",
+  "appTasksNotCheckedYet": "Not checked yet",
+  "appTasksPause": "Pause",
+  "appTasksResume": "Resume",
+  "appTasksRunNow": "Run now",
+  "appTasksStartChat": "Start a chat",
+  "appTasksSubtitle": "Every page your assistant is watching for you.",
+  "appTasksTitle": "Monitors",
+  "appToolNamesCreateMonitor": "Creating monitor",
+  "appToolNamesCreateNotificationChannel": "Creating notification channel",
+  "appToolNamesDeleteMonitor": "Deleting monitor",
+  "appToolNamesDisableMonitor": "Disabling monitor",
+  "appToolNamesGetCostReport": "Fetching cost report",
+  "appToolNamesGetMonitor": "Looking up monitor",
+  "appToolNamesGetPlatformStats": "Fetching platform stats",
+  "appToolNamesGetRecentChanges": "Fetching recent changes",
+  "appToolNamesGetSystemHealth": "Checking system health",
+  "appToolNamesListMonitors": "Listing monitors",
+  "appToolNamesListNotificationChannels": "Listing notification channels",
+  "appToolNamesListUserMonitors": "Listing user's monitors",
+  "appToolNamesLookupUser": "Looking up user",
+  "appToolNamesPauseMonitor": "Pausing monitor",
+  "appToolNamesResumeMonitor": "Resuming monitor",
+  "appToolNamesTestNotificationPrompt": "Testing prompt",
+  "appToolNamesTriggerCheck": "Running check",
+  "appToolNamesUpdateMonitor": "Updating monitor",
+  "authModalAppleSignInFailed": "Apple sign-in failed",
+  "authModalConfirmPassword": "Confirm password",
+  "authModalContinueWithApple": "Continue with Apple",
+  "authModalCreateAccount": "Create your account",
+  "authModalCreateAccountButton": "Create account",
+  "authModalCreatingAccount": "Creating account…",
+  "authModalEmail": "Email",
+  "authModalErrorsGeneric": "Something went wrong. Please try again.",
+  "authModalErrorsPasswordsMismatch": "Passwords do not match",
+  "authModalErrorsPasswordTooShort": "Password must be at least 8 characters",
+  "authModalForgotPassword": "Forgot password?",
+  "authModalGoogleSignInFailed": "Google sign-in failed",
+  "authModalHaveAccount": "Already have an account?",
+  "authModalHidePassword": "Hide password",
+  "authModalNoAccount": "Don't have an account?",
+  "authModalOrContinueWith": "or continue with",
+  "authModalPassword": "Password",
+  "authModalShowPassword": "Show password",
+  "authModalSignIn": "Sign in",
+  "authModalSignInSubtitle": "Sign in to talk to your assistant",
+  "authModalSigningIn": "Signing in…",
+  "authModalSignUp": "Sign up",
+  "authModalSignUpSubtitle": "Start monitoring pages with AI",
+  "authModalWelcomeBack": "Welcome back",
+  "authOnboardingGetStarted": "Get started",
+  "authOnboardingGoToStep": "Go to step {step}",
+  "@authOnboardingGoToStep": {
+    "placeholders": {
+      "step": {
+        "type": "String"
+      }
+    }
+  },
+  "authOnboardingNext": "Next",
+  "authOnboardingSkip": "Skip",
+  "authOnboardingStepsAiDescription": "Every change gets reviewed by AI against what you asked for — a price drop, a new job posting, a policy update. It only notifies you when it's genuinely relevant.",
+  "authOnboardingStepsAiTitle": "AI understands what actually matters",
+  "authOnboardingStepsChatDescription": "Tell PageWatcher's AI assistant what to watch and when to notify you, in plain language. No settings forms, no configuration screens.",
+  "authOnboardingStepsChatTitle": "Watch any page — just by chatting",
+  "authOnboardingStepsNotifyDescription": "PageWatcher checks pages on the schedule you choose and sends a notification the instant something worth knowing about changes.",
+  "authOnboardingStepsNotifyTitle": "Get notified the moment it happens",
+  "authPlanPickerChoose": "Choose {plan}",
+  "@authPlanPickerChoose": {
+    "placeholders": {
+      "plan": {
+        "type": "String"
+      }
+    }
+  },
+  "authPlanPickerContinueWithTrial": "Continue with free trial",
+  "authPlanPickerPlansIndividualFeatures0": "3 monitors",
+  "authPlanPickerPlansIndividualFeatures1": "Checks every 20 min",
+  "authPlanPickerPlansIndividualFeatures2": "Change diff view",
+  "authPlanPickerPlansIndividualName": "Individual",
+  "authPlanPickerPlansIndividualPrice": "Free for 30 days, then $9/mo",
+  "authPlanPickerPlansProFeatures0": "10 monitors",
+  "authPlanPickerPlansProFeatures1": "Checks every 5 min",
+  "authPlanPickerPlansProFeatures2": "JS rendering + priority support",
+  "authPlanPickerPlansProName": "Pro",
+  "authPlanPickerPlansProPrice": "$29/mo",
+  "authPlanPickerSubtitle": "Full Individual plan access, no card required. Want more from day one? Go Pro instead.",
+  "authPlanPickerTitle": "You're on a free 30-day trial",
+  "authPublicLandingSidebarHint": "Sign in to see your monitors and chat history here.",
+  "commonActionsCancel": "Cancel",
+  "commonActionsConfirm": "Confirm",
+  "commonActionsContinue": "Continue",
+  "commonActionsDelete": "Delete",
+  "commonActionsLoading": "Loading…",
+  "commonActionsSave": "Save",
+  "commonActionsSaving": "Saving…",
+  "commonBrandName": "PageWatcher",
+  "commonLanguageDe": "German",
+  "commonLanguageEn": "English",
+  "commonLanguageFr": "French",
+  "commonLanguageJa": "Japanese",
+  "commonLanguageKo": "Korean",
+  "commonLanguageLabel": "Language",
+  "commonLanguageTr": "Turkish",
+  "commonNavAdmin": "Admin",
+  "commonNavBlog": "Blog",
+  "commonNavCollapseSidebar": "Collapse sidebar",
+  "commonNavExpandSidebar": "Expand sidebar",
+  "commonNavLatestChanges": "Latest changes",
+  "commonNavLogout": "Log out",
+  "commonNavMonitors": "Monitors",
+  "commonNavNewChat": "New chat",
+  "commonNavOpenApp": "Open App",
+  "commonNavSettings": "Settings",
+  "commonStatusActive": "Active",
+  "commonStatusPaused": "Paused",
+  "mobileComingSoonDescription": "This section is being built and will arrive in the next update.",
+  "mobileComingSoonTitle": "Coming soon",
+  "mobileErrorsInvalidEmail": "Enter a valid email address",
+  "mobileErrorsNetwork": "Can't reach PageWatcher. Check your connection and try again.",
+  "mobileErrorsSessionExpired": "Your session has expired. Please sign in again.",
+  "mobileForgotBackToSignIn": "Back to sign in",
+  "mobileForgotSent": "If an account exists for {email}, a reset link is on its way. Check your inbox.",
+  "@mobileForgotSent": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileForgotSubmit": "Send reset link",
+  "mobileForgotSubtitle": "Enter your account email and we'll send you a link to choose a new password.",
+  "mobileForgotTitle": "Reset your password",
+  "mobilePlansFree": "Free",
+  "mobilePlansIndividual": "Individual",
+  "mobilePlansPro": "Pro",
+  "mobileResetInvalidLink": "This reset link is invalid or incomplete. Request a new one.",
+  "mobileResetNewPassword": "New password",
+  "mobileResetSubmit": "Update password",
+  "mobileResetSubtitle": "Enter a new password for your account.",
+  "mobileResetSuccess": "Your password has been updated. You can sign in now.",
+  "mobileResetTitle": "Choose a new password",
+  "mobileSettingsAccount": "Account",
+  "mobileSettingsDeviceLanguage": "Device language",
+  "mobileSettingsLogoutConfirm": "Log out of PageWatcher on this device?",
+  "mobileSettingsManagePlanOnWeb": "Manage your plan on pagewatcher.app",
+  "mobileSettingsPlan": "Plan",
+  "mobileSettingsVersion": "Version {version}",
+  "@mobileSettingsVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "mobileSocialContinueWithGoogle": "Continue with Google",
+  "mobileTabsChanges": "Changes",
+  "mobileTabsChat": "Chat",
+  "mobileTrialComparePlans": "Compare plans on pagewatcher.app"
+}

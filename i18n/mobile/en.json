@@ -1,0 +1,49 @@
+{
+  "tabs": {
+    "chat": "Chat",
+    "changes": "Changes"
+  },
+  "comingSoon": {
+    "title": "Coming soon",
+    "description": "This section is being built and will arrive in the next update."
+  },
+  "social": {
+    "continueWithGoogle": "Continue with Google"
+  },
+  "forgot": {
+    "title": "Reset your password",
+    "subtitle": "Enter your account email and we'll send you a link to choose a new password.",
+    "submit": "Send reset link",
+    "sent": "If an account exists for {{email}}, a reset link is on its way. Check your inbox.",
+    "backToSignIn": "Back to sign in"
+  },
+  "reset": {
+    "title": "Choose a new password",
+    "subtitle": "Enter a new password for your account.",
+    "newPassword": "New password",
+    "submit": "Update password",
+    "success": "Your password has been updated. You can sign in now.",
+    "invalidLink": "This reset link is invalid or incomplete. Request a new one."
+  },
+  "trial": {
+    "comparePlans": "Compare plans on pagewatcher.app"
+  },
+  "errors": {
+    "network": "Can't reach PageWatcher. Check your connection and try again.",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "invalidEmail": "Enter a valid email address"
+  },
+  "settings": {
+    "account": "Account",
+    "plan": "Plan",
+    "managePlanOnWeb": "Manage your plan on pagewatcher.app",
+    "logoutConfirm": "Log out of PageWatcher on this device?",
+    "version": "Version {{version}}",
+    "deviceLanguage": "Device language"
+  },
+  "plans": {
+    "free": "Free",
+    "individual": "Individual",
+    "pro": "Pro"
+  }
+}
